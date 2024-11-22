@@ -13,3 +13,18 @@ C:\Users\moham\Source\Repos\Educational_System\EducationalSystem.DAL\obj\Debug\n
 C:\Users\moham\Source\Repos\Educational_System\EducationalSystem.DAL\obj\Debug\net8.0\EducationalSystem.DAL.pdb
 C:\Users\moham\Source\Repos\Educational_System\EducationalSystem.DAL\obj\Debug\net8.0\EducationalSystem.DAL.genruntimeconfig.cache
 C:\Users\moham\Source\Repos\Educational_System\EducationalSystem.DAL\obj\Debug\net8.0\ref\EducationalSystem.DAL.dll
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.DAL\obj\Debug\net8.0\EducationalSystem.DAL.csproj.AssemblyReference.cache
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.DAL\obj\Debug\net8.0\EducationalSystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.DAL\obj\Debug\net8.0\EducationalSystem.DAL.AssemblyInfoInputs.cache
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.DAL\obj\Debug\net8.0\EducationalSystem.DAL.AssemblyInfo.cs
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.DAL\obj\Debug\net8.0\EducationalSystem.DAL.csproj.CoreCompileInputs.cache
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.DAL\obj\Debug\net8.0\EducationalSystem.DAL.sourcelink.json
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.DAL\bin\Debug\net8.0\EducationalSystem.DAL.deps.json
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.DAL\bin\Debug\net8.0\EducationalSystem.DAL.runtimeconfig.json
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.DAL\bin\Debug\net8.0\EducationalSystem.DAL.dll
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.DAL\bin\Debug\net8.0\EducationalSystem.DAL.pdb
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.DAL\obj\Debug\net8.0\EducationalSystem.DAL.dll
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.DAL\obj\Debug\net8.0\refint\EducationalSystem.DAL.dll
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.DAL\obj\Debug\net8.0\EducationalSystem.DAL.pdb
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.DAL\obj\Debug\net8.0\EducationalSystem.DAL.genruntimeconfig.cache
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.DAL\obj\Debug\net8.0\ref\EducationalSystem.DAL.dll

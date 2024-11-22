@@ -1,19 +1,18 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System.Diagnostics.Metrics;
 using System.Reflection;
 
 namespace EducationalSystem.DAL.Models.Context
 {
-    public class Education_System:IdentityDbContext<ApplicationUser>
+    public class Education_System : IdentityDbContext<ApplicationUser>
     {
         public Education_System() : base()
         {
-
         }
-        public Education_System(DbContextOptions options) : base(options)
-        {
 
+        public Education_System(DbContextOptions<Education_System> options)
+            : base(options)
+        {
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -21,7 +20,8 @@ namespace EducationalSystem.DAL.Models.Context
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
-        
+
+        // Specify your DbSet properties as is...
         public DbSet<Courses> Courses { get; set; }
         public DbSet<Course_Enrollments> Course_Enrollments { get; set; }
         public DbSet<Categories> Categories { get; set; }
@@ -32,8 +32,13 @@ namespace EducationalSystem.DAL.Models.Context
         public DbSet<Lesson_Completions> Lesson_Completions { get; set; }
         public DbSet<Lessons> Lessons { get; set; }
         public DbSet<Progress> progresses { get; set; }
-        public DbSet<Questions> Questions  { get; set; }
+        public DbSet<Questions> Questions { get; set; }
         public DbSet<Comments> Comments { get; set; }
-
+        public DbSet<Course_Instructors> Course_Instructors { get; set; }
+        public DbSet<Discounts> Discounts { get; set; }
+        public DbSet<Lesson_Prerequisites> Lesson_Prerequisites { get; set; }
+        public DbSet<QuestionType> questionTypes { get; set; }
+        public DbSet<Specializations> Specializations { get; set; }
+        public DbSet<Instructor_Specializations> Instructor_Specializations { get; set; }
     }
 }

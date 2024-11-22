@@ -7,7 +7,7 @@ namespace EducationalSystem.DAL.Models.Config
     {
         public void Configure(EntityTypeBuilder<Questions> builder)
         {
-            builder.Property(x => x.QuestionType).HasMaxLength(50).IsRequired();
+        
         }
     }
 }

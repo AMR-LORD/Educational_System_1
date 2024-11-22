@@ -1,9 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EducationalSystem.DAL.Models
 {
-    public class Instructor_Specializations
+    public class Instructor_Specializations 
     {
+        [Key]
         public int InstructorSpecializationID { get; set; }
         [ForeignKey(nameof(Instructors))]
         public int InstructorID { get; set; }

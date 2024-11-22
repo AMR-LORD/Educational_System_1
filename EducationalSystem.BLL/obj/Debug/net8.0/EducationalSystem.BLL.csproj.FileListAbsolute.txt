@@ -10,3 +10,19 @@ C:\Users\moham\Source\Repos\Educational_System\EducationalSystem.BLL\obj\Debug\n
 C:\Users\moham\Source\Repos\Educational_System\EducationalSystem.BLL\obj\Debug\net8.0\refint\EducationalSystem.BLL.dll
 C:\Users\moham\Source\Repos\Educational_System\EducationalSystem.BLL\obj\Debug\net8.0\EducationalSystem.BLL.pdb
 C:\Users\moham\Source\Repos\Educational_System\EducationalSystem.BLL\obj\Debug\net8.0\ref\EducationalSystem.BLL.dll
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.BLL\obj\Debug\net8.0\EducationalSystem.BLL.csproj.AssemblyReference.cache
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.BLL\obj\Debug\net8.0\EducationalSystem.BLL.GeneratedMSBuildEditorConfig.editorconfig
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.BLL\obj\Debug\net8.0\EducationalSystem.BLL.AssemblyInfoInputs.cache
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.BLL\obj\Debug\net8.0\EducationalSystem.BLL.AssemblyInfo.cs
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.BLL\obj\Debug\net8.0\EducationalSystem.BLL.csproj.CoreCompileInputs.cache
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.BLL\obj\Debug\net8.0\EducationalSystem.BLL.sourcelink.json
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.BLL\bin\Debug\net8.0\EducationalSystem.BLL.deps.json
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.BLL\bin\Debug\net8.0\EducationalSystem.BLL.dll
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.BLL\bin\Debug\net8.0\EducationalSystem.BLL.pdb
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.BLL\bin\Debug\net8.0\EducationalSystem.DAL.dll
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.BLL\bin\Debug\net8.0\EducationalSystem.DAL.pdb
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.BLL\obj\Debug\net8.0\Educatio.0EEE2F02.Up2Date
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.BLL\obj\Debug\net8.0\EducationalSystem.BLL.dll
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.BLL\obj\Debug\net8.0\refint\EducationalSystem.BLL.dll
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.BLL\obj\Debug\net8.0\EducationalSystem.BLL.pdb
+F:\FULL Projects\Educational System\Educational_System\EducationalSystem.BLL\obj\Debug\net8.0\ref\EducationalSystem.BLL.dll

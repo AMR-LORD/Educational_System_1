@@ -3,68 +3,82 @@
   "WorkspaceRootPath": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem\\models\\progress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|solutionrelative:models\\progress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Migrations\\20241122220556_m0000.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|solutionrelative:models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\lesson_completions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem\\models\\config\\assessment_resultsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|solutionrelative:models\\config\\assessment_resultsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\discounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem\\models\\context\\education_system.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|solutionrelative:models\\context\\education_system.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\course_enrollments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|solutionrelative:models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\course_instructors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem\\models\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|solutionrelative:models\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\specializations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem\\models\\lessons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|solutionrelative:models\\lessons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem\\models\\lesson_completions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|solutionrelative:models\\lesson_completions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem\\models\\instructors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|solutionrelative:models\\instructors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\progress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|solutionrelative:models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\lessons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem\\models\\course_enrollments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|solutionrelative:models\\course_enrollments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\lesson_prerequisites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem\\models\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|solutionrelative:models\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\instructors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem\\models\\choices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|solutionrelative:models\\choices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\instructor_specializations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem\\models\\assessments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|solutionrelative:models\\assessments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem\\models\\assessment_results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|solutionrelative:models\\assessment_results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem\\models\\config\\assessmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C084AF2-BBB5-46C1-BBBC-115C535DC5F8}|EducationalSystem.csproj|solutionrelative:models\\config\\assessmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\choices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\assessments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\assessment_results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Migrations\\20241122215555_m0003.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\config\\lesson_prerequisitesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\config\\lessonsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Migrations\\20241122215444_m0003.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\config\\lesson_completionsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E4D9F6-393E-4911-93FC-0FA112EDD67A}|..\\EducationalSystem.DAL\\EducationalSystem.DAL.csproj|f:\\full projects\\educational system\\educational_system\\educationalsystem.dal\\models\\config\\assessmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Migrations\\20241122214406_m0003.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +88,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,198 +96,341 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Models\\BaseEntity.cs",
-              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\BaseEntity.cs",
-              "RelativeToolTip": "Models\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "20241122220556_m0000.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Migrations\\20241122220556_m0000.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Migrations\\20241122220556_m0000.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Migrations\\20241122220556_m0000.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Migrations\\20241122220556_m0000.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T12:06:28.182Z",
+              "WhenOpened": "2024-11-22T22:05:57.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Education_System.cs",
-              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Context\\Education_System.cs",
-              "RelativeDocumentMoniker": "Models\\Context\\Education_System.cs",
-              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Context\\Education_System.cs",
-              "RelativeToolTip": "Models\\Context\\Education_System.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:53:32.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Categories.cs",
-              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Categories.cs",
-              "RelativeDocumentMoniker": "Models\\Categories.cs",
-              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Categories.cs",
-              "RelativeToolTip": "Models\\Categories.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:52:08.503Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Questions.cs",
-              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Questions.cs",
-              "RelativeDocumentMoniker": "Models\\Questions.cs",
-              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Questions.cs",
-              "RelativeToolTip": "Models\\Questions.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Title": "Specializations.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Specializations.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Specializations.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Specializations.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Specializations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:50:46.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Progress.cs",
-              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Progress.cs",
-              "RelativeDocumentMoniker": "Models\\Progress.cs",
-              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Progress.cs",
-              "RelativeToolTip": "Models\\Progress.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:50:05.068Z",
+              "WhenOpened": "2024-11-22T21:59:31.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Lessons.cs",
-              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Lessons.cs",
-              "RelativeDocumentMoniker": "Models\\Lessons.cs",
-              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Lessons.cs",
-              "RelativeToolTip": "Models\\Lessons.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Title": "QuestionType.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\QuestionType.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\QuestionType.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\QuestionType.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\QuestionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:43:42.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Lesson_Completions.cs",
-              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Lesson_Completions.cs",
-              "RelativeDocumentMoniker": "Models\\Lesson_Completions.cs",
-              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Lesson_Completions.cs",
-              "RelativeToolTip": "Models\\Lesson_Completions.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:42:24.679Z"
+              "WhenOpened": "2024-11-22T21:59:29.645Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Instructors.cs",
-              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Instructors.cs",
-              "RelativeDocumentMoniker": "Models\\Instructors.cs",
-              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Instructors.cs",
-              "RelativeToolTip": "Models\\Instructors.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Title": "Progress.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Progress.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Progress.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Progress.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Progress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:41:51.404Z"
+              "WhenOpened": "2024-11-22T21:59:23.5Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Courses.cs",
-              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Courses.cs",
-              "RelativeDocumentMoniker": "Models\\Courses.cs",
-              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Courses.cs",
-              "RelativeToolTip": "Models\\Courses.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Questions.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Questions.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Questions.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Questions.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Questions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:40:08.597Z"
+              "WhenOpened": "2024-11-22T21:59:17.267Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Course_Enrollments.cs",
-              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Course_Enrollments.cs",
-              "RelativeDocumentMoniker": "Models\\Course_Enrollments.cs",
-              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Course_Enrollments.cs",
-              "RelativeToolTip": "Models\\Course_Enrollments.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA9wAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Lesson_Completions.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Lesson_Completions.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Lesson_Completions.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Lesson_Completions.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Lesson_Completions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:39:45.567Z"
+              "WhenOpened": "2024-11-22T21:58:57.675Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Comments.cs",
-              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Comments.cs",
-              "RelativeDocumentMoniker": "Models\\Comments.cs",
-              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Comments.cs",
-              "RelativeToolTip": "Models\\Comments.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Title": "Instructors.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Instructors.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Instructors.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Instructors.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Instructors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:39:23.856Z"
+              "WhenOpened": "2024-11-22T21:58:52.79Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Choices.cs",
-              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Choices.cs",
-              "RelativeDocumentMoniker": "Models\\Choices.cs",
-              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Choices.cs",
-              "RelativeToolTip": "Models\\Choices.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAswAoAAAAFAAAAAAAAAA==",
+              "Title": "Instructor_Specializations.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Instructor_Specializations.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Instructor_Specializations.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Instructor_Specializations.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Instructor_Specializations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:38:58.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Assessments.cs",
-              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Assessments.cs",
-              "RelativeDocumentMoniker": "Models\\Assessments.cs",
-              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Assessments.cs",
-              "RelativeToolTip": "Models\\Assessments.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAUwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:37:36.765Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AssessmentConfiguration.cs",
-              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Config\\AssessmentConfiguration.cs",
-              "RelativeDocumentMoniker": "Models\\Config\\AssessmentConfiguration.cs",
-              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Config\\AssessmentConfiguration.cs",
-              "RelativeToolTip": "Models\\Config\\AssessmentConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:25:35.319Z"
+              "WhenOpened": "2024-11-22T21:58:47.999Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Assessment_ResultsConfiguration.cs",
-              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Config\\Assessment_ResultsConfiguration.cs",
-              "RelativeDocumentMoniker": "Models\\Config\\Assessment_ResultsConfiguration.cs",
-              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Config\\Assessment_ResultsConfiguration.cs",
-              "RelativeToolTip": "Models\\Config\\Assessment_ResultsConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Title": "Discounts.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Discounts.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Discounts.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Discounts.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Discounts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:25:30.771Z",
+              "WhenOpened": "2024-11-22T21:58:41.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Courses.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Courses.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Courses.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Courses.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Courses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:58:34.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Course_Instructors.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Course_Instructors.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Course_Instructors.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Course_Instructors.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Course_Instructors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:58:29.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Course_Enrollments.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Course_Enrollments.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Course_Enrollments.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Course_Enrollments.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Course_Enrollments.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:58:24.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Assessment_Results.cs",
-              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Assessment_Results.cs",
-              "RelativeDocumentMoniker": "Models\\Assessment_Results.cs",
-              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem\\Models\\Assessment_Results.cs",
-              "RelativeToolTip": "Models\\Assessment_Results.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Title": "Comments.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Comments.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Comments.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Comments.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Comments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:24:50.346Z"
+              "WhenOpened": "2024-11-22T21:58:16.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Categories.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Categories.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Categories.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Categories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:58:11.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Assessment_Results.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Assessment_Results.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Assessment_Results.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Assessment_Results.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Assessment_Results.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:58:00.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Choices.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Choices.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Choices.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Choices.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Choices.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:57:47.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Assessments.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Assessments.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Assessments.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Assessments.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Assessments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:57:43.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20241122215555_m0003.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Migrations\\20241122215555_m0003.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Migrations\\20241122215555_m0003.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Migrations\\20241122215555_m0003.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Migrations\\20241122215555_m0003.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:55:55.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20241122215444_m0003.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Migrations\\20241122215444_m0003.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Migrations\\20241122215444_m0003.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Migrations\\20241122215444_m0003.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Migrations\\20241122215444_m0003.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:54:44.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Lesson_PrerequisitesConfiguration.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Config\\Lesson_PrerequisitesConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Config\\Lesson_PrerequisitesConfiguration.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Config\\Lesson_PrerequisitesConfiguration.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Config\\Lesson_PrerequisitesConfiguration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:50:30.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LessonsConfiguration.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Config\\LessonsConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Config\\LessonsConfiguration.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Config\\LessonsConfiguration.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Config\\LessonsConfiguration.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwBQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:48:38.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AssessmentConfiguration.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Config\\AssessmentConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Config\\AssessmentConfiguration.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Config\\AssessmentConfiguration.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Config\\AssessmentConfiguration.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIAwwBkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:47:42.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20241122214406_m0003.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Migrations\\20241122214406_m0003.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Migrations\\20241122214406_m0003.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Migrations\\20241122214406_m0003.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Migrations\\20241122214406_m0003.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:44:06.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Lessons.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Lessons.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Lessons.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Lessons.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Lessons.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:42:36.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Lesson_CompletionsConfiguration.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Config\\Lesson_CompletionsConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Config\\Lesson_CompletionsConfiguration.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Config\\Lesson_CompletionsConfiguration.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Config\\Lesson_CompletionsConfiguration.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:38:34.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Lesson_Prerequisites.cs",
+              "DocumentMoniker": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Lesson_Prerequisites.cs",
+              "RelativeDocumentMoniker": "..\\EducationalSystem.DAL\\Models\\Lesson_Prerequisites.cs",
+              "ToolTip": "F:\\FULL Projects\\Educational System\\Educational_System\\EducationalSystem.DAL\\Models\\Lesson_Prerequisites.cs",
+              "RelativeToolTip": "..\\EducationalSystem.DAL\\Models\\Lesson_Prerequisites.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T21:27:38.248Z",
+              "EditorCaption": ""
             }
           ]
         }

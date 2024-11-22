@@ -1,4 +1,3 @@
-
 using EducationalSystem.DAL.Models.Context;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,14 +10,16 @@ namespace EducationalSystem
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
             builder.Services.AddControllers();
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddDbContext<Education_System>(Options => {
-                Options.UseSqlServer(builder.Configuration.GetConnectionString("DB1"));
-            });
+
+            // Add DbContext with the MigrationsAssembly
+            builder.Services.AddDbContext<Education_System>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DB1"),
+        b => b.MigrationsAssembly("EducationalSystem.DAL")));  // Specify the migrations assembly here
 
             var app = builder.Build();
 
@@ -30,7 +31,6 @@ namespace EducationalSystem
             }
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 
