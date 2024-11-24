@@ -3,10 +3,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EducationalSystem.DAL.Models
 {
-    public class Choices 
+    public class Choices : BaseEntity
     {
-        [Key]
-        public int ChoiceID { get; set; }
+
         [ForeignKey(nameof(Questions))]
         public int QuestionID { get; set; }
         public string ChoiceText { get; set; }

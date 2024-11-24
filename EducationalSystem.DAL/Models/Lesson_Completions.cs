@@ -5,8 +5,7 @@ namespace EducationalSystem.DAL.Models
 {
     public class Lesson_Completions 
     {
-        [Key]
-        public int CompletionID { get; set; }
+
         [ForeignKey(nameof(ApplicationUser))]
         public string UserID { get; set; }
         [ForeignKey(nameof(Lessons))]

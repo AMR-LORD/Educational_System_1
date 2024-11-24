@@ -3,10 +3,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EducationalSystem.DAL.Models
 {
-    public class Courses 
+    public class Courses : BaseEntity
     {
-        [Key]
-        public int CourseID { get; set; }
+
         public string CourseTitle { get; set; }
         public string Description { get; set; }
         [ForeignKey(nameof(Categories))]

@@ -4,10 +4,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EducationalSystem.DAL.Models
 {
-    public class Assessments 
+    public class Assessments :BaseEntity
     {
-        [Key]
-        public int AssessmentID { get; set; }
+
         [ForeignKey(nameof(Courses))]
         public int CourseID { get; set; }
         public int? LessonID { get; set; }

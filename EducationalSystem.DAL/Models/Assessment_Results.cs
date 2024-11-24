@@ -3,10 +3,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EducationalSystem.DAL.Models
 {
-    public class Assessment_Results 
+    public class Assessment_Results :BaseEntity
     {
-        [Key]
-        public int ResultID { get; set; }
+
         [ForeignKey(nameof(ApplicationUser))]
         public string UserID { get; set; }
         public int Score {  get; set; }

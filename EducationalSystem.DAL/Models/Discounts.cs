@@ -4,10 +4,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EducationalSystem.DAL.Models
 {
-    public class Discounts 
+    public class Discounts : BaseEntity
     {
-        [Key]
-        public int DiscountID { get; set; }
+
         [ForeignKey(nameof(Courses))]
         public int CourseID { get; set; }
         public int DiscountValue { get; set; }

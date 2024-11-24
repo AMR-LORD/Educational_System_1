@@ -3,10 +3,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EducationalSystem.DAL.Models
 {
-    public class Comments 
+    public class Comments : BaseEntity
     {
-        [Key]
-        public int CommentID { get; set; }
+
         [ForeignKey(nameof(Lessons))]
         public int LessonID { get; set; }
         [ForeignKey(nameof(ApplicationUser))]

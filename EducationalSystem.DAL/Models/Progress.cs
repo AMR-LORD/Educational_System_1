@@ -3,10 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EducationalSystem.DAL.Models
 {
-    public class Progress 
+    public class Progress : BaseEntity
     {
-        [Key]
-        public int ProgressID { get; set; }
         [ForeignKey(nameof(ApplicationUser))]
         public string UserID { get; set; }
         [ForeignKey(nameof(Courses))]

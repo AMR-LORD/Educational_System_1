@@ -3,10 +3,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EducationalSystem.DAL.Models
 {
-    public class Course_Enrollments 
+    public class Course_Enrollments : BaseEntity
     {
-        [Key]
-        public int EnrollmentID { get; set; }
+
         [ForeignKey(nameof(ApplicationUser))]
         public string UserID { get; set; }
         public DateTime EnrollmentDate { get; set; }

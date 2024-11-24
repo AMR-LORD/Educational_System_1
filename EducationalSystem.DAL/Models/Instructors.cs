@@ -3,10 +3,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EducationalSystem.DAL.Models
 {
-    public class Instructors 
+    public class Instructors : BaseEntity
     {
-        [Key]
-        public int InstructorID { get; set; }
+
         [ForeignKey(nameof(ApplicationUser))]
         public string UserID { get; set; }
         public string PhoneNumber { get; set; }
