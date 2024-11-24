@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EducationalSystem.DAL.Migrations
 {
     [DbContext(typeof(Education_System))]
-    [Migration("20241122220556_m0000")]
-    partial class m0000
+    [Migration("20241124183728_m0")]
+    partial class m0
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,6 +49,10 @@ namespace EducationalSystem.DAL.Migrations
 
                     b.Property<DateTimeOffset?>("LockoutEnd")
                         .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NormalizedEmail")
                         .HasMaxLength(256)
@@ -96,11 +100,14 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Assessment_Results", b =>
                 {
-                    b.Property<int>("ResultID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ResultID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("ApplicationUserId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime?>("AttemptDate")
                         .IsRequired()
@@ -114,9 +121,12 @@ namespace EducationalSystem.DAL.Migrations
 
                     b.Property<string>("UserID")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("UserID");
 
-                    b.HasKey("ResultID");
+                    b.HasKey("ID");
+
+                    b.HasIndex("ApplicationUserId");
 
                     b.HasIndex("UserID");
 
@@ -125,11 +135,11 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Assessments", b =>
                 {
-                    b.Property<int>("AssessmentID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AssessmentID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("AssessmentType")
                         .IsRequired()
@@ -151,7 +161,7 @@ namespace EducationalSystem.DAL.Migrations
                     b.Property<int>("MaxScore")
                         .HasColumnType("int");
 
-                    b.HasKey("AssessmentID");
+                    b.HasKey("ID");
 
                     b.HasIndex("CourseID");
 
@@ -162,29 +172,29 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Categories", b =>
                 {
-                    b.Property<int>("CategoryId")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("CategoryName")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.HasKey("CategoryId");
+                    b.HasKey("ID");
 
                     b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Choices", b =>
                 {
-                    b.Property<int>("ChoiceID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ChoiceID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("ChoiceText")
                         .IsRequired()
@@ -196,7 +206,7 @@ namespace EducationalSystem.DAL.Migrations
                     b.Property<int>("QuestionID")
                         .HasColumnType("int");
 
-                    b.HasKey("ChoiceID");
+                    b.HasKey("ID");
 
                     b.HasIndex("QuestionID");
 
@@ -205,11 +215,11 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Comments", b =>
                 {
-                    b.Property<int>("CommentID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CommentID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("CommentText")
                         .IsRequired()
@@ -228,7 +238,7 @@ namespace EducationalSystem.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("CommentID");
+                    b.HasKey("ID");
 
                     b.HasIndex("LessonID");
 
@@ -239,11 +249,11 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Course_Enrollments", b =>
                 {
-                    b.Property<int>("EnrollmentID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EnrollmentID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<int>("CourseId")
                         .HasColumnType("int");
@@ -258,7 +268,7 @@ namespace EducationalSystem.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("EnrollmentID");
+                    b.HasKey("ID");
 
                     b.HasIndex("CourseId");
 
@@ -269,11 +279,11 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Course_Instructors", b =>
                 {
-                    b.Property<int>("CourseInstructorID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CourseInstructorID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<int>("CourseID")
                         .HasColumnType("int");
@@ -281,13 +291,10 @@ namespace EducationalSystem.DAL.Migrations
                     b.Property<int>("InstructorID")
                         .HasColumnType("int");
 
-                    b.Property<string>("Role")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.HasKey("ID");
 
-                    b.HasKey("CourseInstructorID");
-
-                    b.HasIndex("CourseID");
+                    b.HasIndex("CourseID")
+                        .IsUnique();
 
                     b.HasIndex("InstructorID");
 
@@ -296,19 +303,19 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Courses", b =>
                 {
-                    b.Property<int>("CourseID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CourseID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<int>("CategoryID")
                         .HasColumnType("int");
 
                     b.Property<string>("CourseTitle")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<DateTime?>("CreatedDate")
                         .IsRequired()
@@ -319,11 +326,8 @@ namespace EducationalSystem.DAL.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<int?>("InstructorsInstructorID")
-                        .HasColumnType("int");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("ThumbnailURL")
                         .IsRequired()
@@ -334,22 +338,20 @@ namespace EducationalSystem.DAL.Migrations
                         .HasPrecision(10, 2)
                         .HasColumnType("decimal(10,2)");
 
-                    b.HasKey("CourseID");
+                    b.HasKey("ID");
 
                     b.HasIndex("CategoryID");
-
-                    b.HasIndex("InstructorsInstructorID");
 
                     b.ToTable("Courses");
                 });
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Discounts", b =>
                 {
-                    b.Property<int>("DiscountID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DiscountID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<int>("CourseID")
                         .HasColumnType("int");
@@ -363,43 +365,20 @@ namespace EducationalSystem.DAL.Migrations
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("DiscountID");
+                    b.HasKey("ID");
 
                     b.HasIndex("CourseID");
 
                     b.ToTable("Discounts");
                 });
 
-            modelBuilder.Entity("EducationalSystem.DAL.Models.Instructor_Specializations", b =>
-                {
-                    b.Property<int>("InstructorSpecializationID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("InstructorSpecializationID"));
-
-                    b.Property<int>("InstructorID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("SpecializationID")
-                        .HasColumnType("int");
-
-                    b.HasKey("InstructorSpecializationID");
-
-                    b.HasIndex("InstructorID");
-
-                    b.HasIndex("SpecializationID");
-
-                    b.ToTable("Instructor_Specializations");
-                });
-
             modelBuilder.Entity("EducationalSystem.DAL.Models.Instructors", b =>
                 {
-                    b.Property<int>("InstructorID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("InstructorID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("BIO")
                         .HasMaxLength(100)
@@ -418,25 +397,26 @@ namespace EducationalSystem.DAL.Migrations
                         .HasMaxLength(11)
                         .HasColumnType("nvarchar(11)");
 
-                    b.Property<string>("UserID")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int?>("SpecializationsID")
+                        .HasColumnType("int");
 
-                    b.HasKey("InstructorID");
+                    b.HasKey("ID");
 
-                    b.HasIndex("UserID")
-                        .IsUnique();
+                    b.HasIndex("SpecializationsID");
 
                     b.ToTable("Instructors");
                 });
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Lesson_Completions", b =>
                 {
-                    b.Property<int>("CompletionID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CompletionID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("ApplicationUserId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime>("CompletionDate")
                         .ValueGeneratedOnAdd()
@@ -451,7 +431,9 @@ namespace EducationalSystem.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("CompletionID");
+                    b.HasKey("ID");
+
+                    b.HasIndex("ApplicationUserId");
 
                     b.HasIndex("LessonID");
 
@@ -462,11 +444,11 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Lesson_Prerequisites", b =>
                 {
-                    b.Property<int>("PrerequisiteID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PrerequisiteID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<int>("CurrentLessonID")
                         .HasColumnType("int");
@@ -474,7 +456,7 @@ namespace EducationalSystem.DAL.Migrations
                     b.Property<int>("PrerequisiteLessonID")
                         .HasColumnType("int");
 
-                    b.HasKey("PrerequisiteID");
+                    b.HasKey("ID");
 
                     b.HasIndex("CurrentLessonID");
 
@@ -485,11 +467,11 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Lessons", b =>
                 {
-                    b.Property<int>("LessonID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LessonID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("Content")
                         .IsRequired()
@@ -513,7 +495,7 @@ namespace EducationalSystem.DAL.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.HasKey("LessonID");
+                    b.HasKey("ID");
 
                     b.HasIndex("CourseID");
 
@@ -522,11 +504,14 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Progress", b =>
                 {
-                    b.Property<int>("ProgressID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProgressID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("ApplicationUserId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime>("CompletedDate")
                         .ValueGeneratedOnAdd()
@@ -544,7 +529,9 @@ namespace EducationalSystem.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("ProgressID");
+                    b.HasKey("ID");
+
+                    b.HasIndex("ApplicationUserId");
 
                     b.HasIndex("CourseID");
 
@@ -555,28 +542,29 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.QuestionType", b =>
                 {
-                    b.Property<int>("QuestionTypeID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("QuestionTypeID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("QuestionTypeName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
-                    b.HasKey("QuestionTypeID");
+                    b.HasKey("ID");
 
-                    b.ToTable("questionTypes");
+                    b.ToTable("QuestionTypes", (string)null);
                 });
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Questions", b =>
                 {
-                    b.Property<int>("QuestionID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("QuestionID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<int>("AssessmentID")
                         .HasColumnType("int");
@@ -591,7 +579,7 @@ namespace EducationalSystem.DAL.Migrations
                     b.Property<int>("QuestionTypeID")
                         .HasColumnType("int");
 
-                    b.HasKey("QuestionID");
+                    b.HasKey("ID");
 
                     b.HasIndex("AssessmentID");
 
@@ -602,19 +590,43 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Specializations", b =>
                 {
-                    b.Property<int>("SpecializationID")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SpecializationID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("SpecializationName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("SpecializationID");
+                    b.HasKey("ID");
 
                     b.ToTable("Specializations");
+                });
+
+            modelBuilder.Entity("EducationalSystem.DAL.Models.User_Instructor", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<int>("InstructorId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("InstructorId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("User_Instructor");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -752,8 +764,12 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Assessment_Results", b =>
                 {
-                    b.HasOne("EducationalSystem.DAL.Models.ApplicationUser", "User")
+                    b.HasOne("EducationalSystem.DAL.Models.ApplicationUser", null)
                         .WithMany("Assessment_Results")
+                        .HasForeignKey("ApplicationUserId");
+
+                    b.HasOne("EducationalSystem.DAL.Models.ApplicationUser", "User")
+                        .WithMany()
                         .HasForeignKey("UserID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -766,7 +782,7 @@ namespace EducationalSystem.DAL.Migrations
                     b.HasOne("EducationalSystem.DAL.Models.Courses", "Courses")
                         .WithMany("Assessments")
                         .HasForeignKey("CourseID")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("EducationalSystem.DAL.Models.Lessons", "Lessons")
@@ -811,19 +827,19 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Course_Enrollments", b =>
                 {
-                    b.HasOne("EducationalSystem.DAL.Models.Courses", "Course")
+                    b.HasOne("EducationalSystem.DAL.Models.Courses", "Courses")
                         .WithMany("Course_Enrollments")
                         .HasForeignKey("CourseId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("EducationalSystem.DAL.Models.ApplicationUser", "User")
-                        .WithMany()
+                        .WithMany("CourseEnrollments")
                         .HasForeignKey("UserID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Course");
+                    b.Navigation("Courses");
 
                     b.Navigation("User");
                 });
@@ -831,13 +847,13 @@ namespace EducationalSystem.DAL.Migrations
             modelBuilder.Entity("EducationalSystem.DAL.Models.Course_Instructors", b =>
                 {
                     b.HasOne("EducationalSystem.DAL.Models.Courses", "Courses")
-                        .WithMany("Course_Instructors")
-                        .HasForeignKey("CourseID")
+                        .WithOne("Course_Instructors")
+                        .HasForeignKey("EducationalSystem.DAL.Models.Course_Instructors", "CourseID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("EducationalSystem.DAL.Models.Instructors", "Instructors")
-                        .WithMany()
+                        .WithMany("Course_Instructors")
                         .HasForeignKey("InstructorID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -852,12 +868,8 @@ namespace EducationalSystem.DAL.Migrations
                     b.HasOne("EducationalSystem.DAL.Models.Categories", "Categories")
                         .WithMany("Courses")
                         .HasForeignKey("CategoryID")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
-
-                    b.HasOne("EducationalSystem.DAL.Models.Instructors", null)
-                        .WithMany("Courses")
-                        .HasForeignKey("InstructorsInstructorID");
 
                     b.Navigation("Categories");
                 });
@@ -873,46 +885,27 @@ namespace EducationalSystem.DAL.Migrations
                     b.Navigation("Courses");
                 });
 
-            modelBuilder.Entity("EducationalSystem.DAL.Models.Instructor_Specializations", b =>
-                {
-                    b.HasOne("EducationalSystem.DAL.Models.Instructors", "Instructors")
-                        .WithMany("GetInstructor_Specializations")
-                        .HasForeignKey("InstructorID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("EducationalSystem.DAL.Models.Specializations", "Specializations")
-                        .WithMany("Instructor_Specializations")
-                        .HasForeignKey("SpecializationID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Instructors");
-
-                    b.Navigation("Specializations");
-                });
-
             modelBuilder.Entity("EducationalSystem.DAL.Models.Instructors", b =>
                 {
-                    b.HasOne("EducationalSystem.DAL.Models.ApplicationUser", "ApplicationUser")
-                        .WithOne("Instructors")
-                        .HasForeignKey("EducationalSystem.DAL.Models.Instructors", "UserID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("ApplicationUser");
+                    b.HasOne("EducationalSystem.DAL.Models.Specializations", null)
+                        .WithMany("Instructors")
+                        .HasForeignKey("SpecializationsID");
                 });
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Lesson_Completions", b =>
                 {
+                    b.HasOne("EducationalSystem.DAL.Models.ApplicationUser", null)
+                        .WithMany("Lesson_Completions")
+                        .HasForeignKey("ApplicationUserId");
+
                     b.HasOne("EducationalSystem.DAL.Models.Lessons", "Lessons")
-                        .WithMany()
+                        .WithMany("Lesson_Completions")
                         .HasForeignKey("LessonID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("EducationalSystem.DAL.Models.ApplicationUser", "ApplicationUser")
-                        .WithMany("Lesson_Completions")
+                        .WithMany()
                         .HasForeignKey("UserID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -954,6 +947,10 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Progress", b =>
                 {
+                    b.HasOne("EducationalSystem.DAL.Models.ApplicationUser", null)
+                        .WithMany("progresses")
+                        .HasForeignKey("ApplicationUserId");
+
                     b.HasOne("EducationalSystem.DAL.Models.Courses", "Courses")
                         .WithMany()
                         .HasForeignKey("CourseID")
@@ -961,7 +958,7 @@ namespace EducationalSystem.DAL.Migrations
                         .IsRequired();
 
                     b.HasOne("EducationalSystem.DAL.Models.ApplicationUser", "User")
-                        .WithMany("progresses")
+                        .WithMany()
                         .HasForeignKey("UserID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -988,6 +985,25 @@ namespace EducationalSystem.DAL.Migrations
                     b.Navigation("Assessments");
 
                     b.Navigation("QuestionType");
+                });
+
+            modelBuilder.Entity("EducationalSystem.DAL.Models.User_Instructor", b =>
+                {
+                    b.HasOne("EducationalSystem.DAL.Models.Instructors", "Instructors")
+                        .WithMany("User_Instructors")
+                        .HasForeignKey("InstructorId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("EducationalSystem.DAL.Models.ApplicationUser", "User")
+                        .WithMany("User_Instructor")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Instructors");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -1047,10 +1063,11 @@ namespace EducationalSystem.DAL.Migrations
 
                     b.Navigation("Comments");
 
-                    b.Navigation("Instructors")
-                        .IsRequired();
+                    b.Navigation("CourseEnrollments");
 
                     b.Navigation("Lesson_Completions");
+
+                    b.Navigation("User_Instructor");
 
                     b.Navigation("progresses");
                 });
@@ -1071,7 +1088,8 @@ namespace EducationalSystem.DAL.Migrations
 
                     b.Navigation("Course_Enrollments");
 
-                    b.Navigation("Course_Instructors");
+                    b.Navigation("Course_Instructors")
+                        .IsRequired();
 
                     b.Navigation("Discounts");
 
@@ -1080,9 +1098,9 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Instructors", b =>
                 {
-                    b.Navigation("Courses");
+                    b.Navigation("Course_Instructors");
 
-                    b.Navigation("GetInstructor_Specializations");
+                    b.Navigation("User_Instructors");
                 });
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Lessons", b =>
@@ -1092,6 +1110,8 @@ namespace EducationalSystem.DAL.Migrations
                     b.Navigation("Comments");
 
                     b.Navigation("CurrentLessonPrerequisites");
+
+                    b.Navigation("Lesson_Completions");
 
                     b.Navigation("PrerequisiteLessonPrerequisites");
                 });
@@ -1103,7 +1123,7 @@ namespace EducationalSystem.DAL.Migrations
 
             modelBuilder.Entity("EducationalSystem.DAL.Models.Specializations", b =>
                 {
-                    b.Navigation("Instructor_Specializations");
+                    b.Navigation("Instructors");
                 });
 #pragma warning restore 612, 618
         }

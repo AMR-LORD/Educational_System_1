@@ -34,11 +34,10 @@ namespace EducationalSystem.DAL.Models.Context
         public DbSet<Progress> progresses { get; set; }
         public DbSet<Questions> Questions { get; set; }
         public DbSet<Comments> Comments { get; set; }
-        public DbSet<Course_Instructors> Course_Instructors { get; set; }
         public DbSet<Discounts> Discounts { get; set; }
         public DbSet<Lesson_Prerequisites> Lesson_Prerequisites { get; set; }
         public DbSet<QuestionType> questionTypes { get; set; }
         public DbSet<Specializations> Specializations { get; set; }
-        public DbSet<Instructor_Specializations> Instructor_Specializations { get; set; }
+        public DbSet<User_Instructor> User_Instructor { get; set; }
     }
 }

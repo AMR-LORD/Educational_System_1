@@ -16,18 +16,18 @@ namespace EducationalSystem.DAL.Models.Config
                 .IsRequired()
                 .HasDefaultValueSql("GETDATE()");
 
-            // Configure the foreign key for Courses with NO ACTION to avoid cascading delete/update
+            // Configure the foreign key for Courses
             builder
-                .HasOne(a => a.Courses)
-                .WithMany(c => c.Assessments)
-                .HasForeignKey(a => a.CourseID)
+                .HasOne(a => a.Courses)          // Navigation property
+                .WithMany(c => c.Assessments)   // Inverse navigation property
+                .HasForeignKey(a => a.CourseID) // Foreign key property
                 .OnDelete(DeleteBehavior.NoAction);  // Prevent cascading delete/update for CourseID
 
-            // Configure the foreign key for Lessons with NO ACTION to avoid cascading delete/update
+            // Configure the foreign key for Lessons
             builder
-                .HasOne(a => a.Lessons)
-                .WithMany(l => l.Assessments)
-                .HasForeignKey(a => a.LessonID)
+                .HasOne(a => a.Lessons)          // Navigation property
+                .WithMany(l => l.Assessments)    // Inverse navigation property
+                .HasForeignKey(a => a.LessonID)  // Foreign key property
                 .OnDelete(DeleteBehavior.NoAction);  // Prevent cascading delete/update for LessonID
         }
     }

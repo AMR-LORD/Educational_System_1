@@ -15,6 +15,14 @@ namespace EducationalSystem.DAL.Models.Config
                 .IsRequired()
                 .HasDefaultValueSql("GETDATE()");
 
+            // Configuring the relationship using Fluent API
+            builder.HasOne(x => x.User)  // Navigation property
+                .WithMany()              // Assuming no inverse navigation property on ApplicationUser
+                .HasForeignKey(x => x.UserID)  // Foreign key property
+                .OnDelete(DeleteBehavior.Cascade);  // Delete behavior for cascading
+
+            // Optionally, set the column name for the foreign key
+            builder.Property(x => x.UserID).HasColumnName("UserID");
         }
     }
 }

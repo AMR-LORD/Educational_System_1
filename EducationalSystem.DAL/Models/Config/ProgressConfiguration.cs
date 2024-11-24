@@ -12,8 +12,23 @@ namespace EducationalSystem.DAL.Models.Config
                 .HasPrecision(0)
                 .IsRequired()
                 .HasDefaultValueSql("GETDATE()");
-            builder.HasKey(x => x.ID);
 
+            // Configuring the relationship with ApplicationUser
+            builder
+                .HasOne(p => p.User)
+                .WithMany()  // No collection property in ApplicationUser for Progress
+                .HasForeignKey(p => p.UserID)
+                .OnDelete(DeleteBehavior.Cascade);  // Adjust delete behavior as needed
+
+            // Configuring the relationship with Courses
+            builder
+                .HasOne(p => p.Courses)
+                .WithMany()  // No collection property in Courses for Progress
+                .HasForeignKey(p => p.CourseID)
+                .OnDelete(DeleteBehavior.Cascade);  // Adjust delete behavior as needed
+
+            // Key configuration
+            builder.HasKey(x => x.ID);
         }
     }
 }

@@ -1,24 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace EducationalSystem.DAL.Models
+﻿namespace EducationalSystem.DAL.Models
 {
     public class Instructors : BaseEntity
     {
-
-        [ForeignKey(nameof(ApplicationUser))]
-        public string UserID { get; set; }
         public string PhoneNumber { get; set; }
         public string CV_PDF_URL { get; set; }
-        public string NationalCardImageURL {  get; set; }
-        public string BIO {  get; set; }
-        public ICollection<Courses>?Courses { get; set; }
-        public ApplicationUser ApplicationUser { get; set; }
-        public ICollection<Instructor_Specializations>? GetInstructor_Specializations { get; set; }
-        /*
-         One-to-Many with Courses
-o Many-to-Many with Specializations through Instructor_Specializations
+        public string NationalCardImageURL { get; set; }
+        public string BIO { get; set; }
 
-         */
+        // Navigation properties
+        public ICollection<User_Instructor>? User_Instructors { get; set; } // Many-to-many relationship via User_Instructor
+        public ICollection<Course_Instructors>? Course_Instructors { get; set; }  // One-to-many relationship with Course_Instructors
     }
 }

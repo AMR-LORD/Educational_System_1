@@ -28,8 +28,9 @@ namespace EducationalSystem.DAL.Models.Config
                 .WithOne(a => a.Lessons)
                 .HasForeignKey(a => a.LessonID)
                 .OnDelete(DeleteBehavior.SetNull); // Prevent cascading delete or update on Assessments -> Lessons
-            builder.HasKey(x => x.ID);
 
+            // Key configuration
+            builder.HasKey(x => x.ID);
         }
     }
 }

@@ -1,18 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace EducationalSystem.DAL.Models
+﻿namespace EducationalSystem.DAL.Models
 {
     public class Comments : BaseEntity
     {
-
-        [ForeignKey(nameof(Lessons))]
-        public int LessonID { get; set; }
-        [ForeignKey(nameof(ApplicationUser))]
-        public string UserID { get; set; }
+        public int LessonID { get; set; } // Foreign key for Lessons
+        public string UserID { get; set; } // Foreign key for ApplicationUser
         public string CommentText { get; set; }
         public DateTime PostedDate { get; set; }
-        public Lessons Lessons { get; set; }
-        public ApplicationUser ApplicationUser { get; set; }
+        public Lessons Lessons { get; set; } // Navigation property for Lessons
+        public ApplicationUser ApplicationUser { get; set; } // Navigation property for ApplicationUser
     }
 }

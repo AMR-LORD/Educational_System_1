@@ -1,21 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace EducationalSystem.DAL.Models
+﻿namespace EducationalSystem.DAL.Models
 {
     public class Lesson_Prerequisites : BaseEntity
     {
+        public int CurrentLessonID { get; set; }  // Foreign key for CurrentLesson
+        public int PrerequisiteLessonID { get; set; }  // Foreign key for PrerequisiteLesson
 
-        [ForeignKey(nameof(CurrentLesson))]
-        public int CurrentLessonID { get; set; }
-
-        [ForeignKey(nameof(PrerequisiteLesson))]
-        public int PrerequisiteLessonID { get; set; }
-
-        [InverseProperty("CurrentLessonPrerequisites")] // Maps to the CurrentLesson navigation
-        public Lessons CurrentLesson { get; set; }
-
-        [InverseProperty("PrerequisiteLessonPrerequisites")] // Maps to the PrerequisiteLesson navigation
-        public Lessons PrerequisiteLesson { get; set; }
+        // Navigation properties
+        public Lessons CurrentLesson { get; set; }  // Navigation property for CurrentLesson
+        public Lessons PrerequisiteLesson { get; set; }  // Navigation property for PrerequisiteLesson
     }
 }

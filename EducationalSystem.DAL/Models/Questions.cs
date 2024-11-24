@@ -1,16 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace EducationalSystem.DAL.Models
+﻿namespace EducationalSystem.DAL.Models
 {
     public class Questions : BaseEntity
     {
-        [ForeignKey(nameof(Assessments))]
-        public int AssessmentID { get; set; }
+        public int AssessmentID { get; set; } // Foreign key for Assessments
         public string QuestionText { get; set; }
-        [ForeignKey(nameof(QuestionType))]
-        public int QuestionTypeID { get; set; }
+        public int QuestionTypeID { get; set; } // Foreign key for QuestionType
         public int Points { get; set; }
+
+        // Navigation properties
         public ICollection<Choices> Choices { get; set; }
         public QuestionType QuestionType { get; set; }
         public Assessments Assessments { get; set; }
