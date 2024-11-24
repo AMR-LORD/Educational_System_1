@@ -8,7 +8,7 @@ namespace EducationalSystem.DAL.Models.Config
         public void Configure(EntityTypeBuilder<Lesson_Prerequisites> builder)
         {
             // Primary Key
-            builder.HasKey(x => x.PrerequisiteID);
+            builder.HasKey(x => x.ID);
 
             // Foreign Key: CurrentLessonID
             builder.HasOne(lp => lp.CurrentLesson)

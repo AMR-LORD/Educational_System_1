@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EducationalSystem.DAL.Models
 {
-    public class Lesson_Completions 
+    public class Lesson_Completions :BaseEntity
     {
 
         [ForeignKey(nameof(ApplicationUser))]

@@ -7,6 +7,8 @@ namespace EducationalSystem.DAL.Models.Config
     {
         public void Configure(EntityTypeBuilder<Categories> builder)
         {
+            builder.HasKey(x => x.ID);
+
             builder.Property(x => x.CategoryName).HasMaxLength(50).IsRequired();
             
         }

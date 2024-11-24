@@ -9,6 +9,8 @@ namespace EducationalSystem.DAL.Models.Config
         {
             builder.Property(x => x.PhoneNumber).HasMaxLength(11).IsRequired();
             builder.Property(x => x.BIO).HasMaxLength(100).IsRequired(false);
+            builder.HasKey(x => x.ID);
+
         }
     }
 }

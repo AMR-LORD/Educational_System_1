@@ -7,7 +7,8 @@ namespace EducationalSystem.DAL.Models.Config
     {
         public void Configure(EntityTypeBuilder<Questions> builder)
         {
-        
+            builder.HasKey(x => x.ID);
+
         }
     }
 }

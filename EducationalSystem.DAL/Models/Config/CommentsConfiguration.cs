@@ -13,6 +13,8 @@ namespace EducationalSystem.DAL.Models.Config
                 .HasPrecision(0)
                 .IsRequired()
                 .HasDefaultValueSql("GETDATE()");
+            builder.HasKey(x => x.ID);
+
 
         }
     }

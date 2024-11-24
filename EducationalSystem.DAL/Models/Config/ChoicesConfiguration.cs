@@ -9,6 +9,8 @@ namespace EducationalSystem.DAL.Models.Config
         {
             builder.Property(x => x.IsCorrect).IsRequired();
             builder.Property(x => x.ChoiceText).IsRequired();
+            builder.HasKey(x => x.ID);
+
         }
     }
 }

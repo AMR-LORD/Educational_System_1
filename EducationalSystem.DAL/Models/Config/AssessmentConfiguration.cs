@@ -7,6 +7,8 @@ namespace EducationalSystem.DAL.Models.Config
     {
         public void Configure(EntityTypeBuilder<Assessments> builder)
         {
+            builder.HasKey(x => x.ID);
+
             builder.Property(x => x.AssessmentType).HasMaxLength(100);
             builder.Property(x => x.CreatedDate)
                 .HasColumnType("datetime2")
